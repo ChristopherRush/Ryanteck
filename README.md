@@ -14,10 +14,10 @@ The board connects to your computer using a micro USB cable, which also provides
 
 ## RTK Motor Controller
 
-<img src="https://drive.google.com/uc?id=1JIekDfvvYkX7KxO7aW4XEpIT7PGEar-q" width="400" height="400>"
+<img src="https://drive.google.com/uc?id=1JIekDfvvYkX7KxO7aW4XEpIT7PGEar-q" width="400" height="400">
 
 ## RTK Traffic HAT
 
-<img src="https://drive.google.com/open?id=160tLrCmECvFxZHDd5FL8JJN37KhcWtfu" width="400" height="400">
+<img src="https://drive.google.com/uc?id=160tLrCmECvFxZHDd5FL8JJN37KhcWtfu" width="400" height="400">
 
 ## Where to buy
