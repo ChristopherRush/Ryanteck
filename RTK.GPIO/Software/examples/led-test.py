@@ -11,5 +11,5 @@ for cGPIO in gpios:
 	print("Testing GPIO %s", cGPIO);
 	GPIO.setup(cGPIO,GPIO.OUT)
 	GPIO.output(cGPIO,1)
-	raw_input("Press enter to continue")
+	input("Press enter to continue")
 	GPIO.output(cGPIO,0)
