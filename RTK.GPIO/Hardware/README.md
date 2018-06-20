@@ -6,13 +6,13 @@ The above image of the RTK.GPIO PCB is used in the following descriptions to hig
 
 ## GPIO header
 
-The GPIO header replicates the current 40-way GPIO header of the Raspberry Pi.
+The GPIO header replicates the current 40-way GPIO header of the Raspberry Pi with the following pinouts.
 
 | Pin#   | Name | Name | Pin#   |
 | ----   | ---- | ---- | ----   |
 |   1    | 3.3V     | 5V     |   2    |
-|   3    | SDA1     | 5V     |   4    |
-|   5    | SCLK1     | GND     |   6    |
+|   3    | GPIO02     | 5V     |   4    |
+|   5    | GPIO03     | GND     |   6    |
 |   7    | GPIO04     | GPIO14     |   8    |
 |   9    | GND     | GPIO15     |   10   |
 |   11   | GPIO17     | GPIO18     |   12   |
@@ -23,10 +23,30 @@ The GPIO header replicates the current 40-way GPIO header of the Raspberry Pi.
 |   21   | GPIO09     | GPIO25     |   22   |
 |   23   | GPIO11     | GPIO08     |   24   |
 |   25   | GND     | GPIO07     |   26   |
-|   27   | ID_SD     | ID_SC     |   28   |
+|   27   | GPIO00     | GPIO01     |   28   |
 |   29   | GPIO05     | GND     |   30   |
 |   31   | GPIO06     | GPIO12     |   32   |
 |   33   | GPIO13     | GND     |   34   |
 |   35   | GPIO19     | GPIO16     |   36   |
 |   37   | GPIO26     | GPIO20     |   38   |
 |   39   | GND     | GPIO21     |   40   |
+
+# I2C
+
+The I2C header is a breakout header from the 40 way GPIO header, which allows you to directly connect I2C devices to the RTK.GPIO board and keep the header free.
+
+1. 5V
+2. SDA
+3. SCL
+4. GND
+
+# PROG
+
+The PROG header allows you to directly program the STM32F030 MCU using ST Link, ST Nucleo Programmer or ST Link Clone programmers.
+
+1. SWDIO
+2. SWCLK
+3. Reset
+4. GND
+
+# UART
