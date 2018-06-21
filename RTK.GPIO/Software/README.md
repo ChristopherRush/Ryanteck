@@ -99,4 +99,10 @@ Note: PIP installs with Python on Windows platform
 
 There are a number of examples that you can use in the Software > examples folder, however if you wish to program your own Python programs then you will need to either use a text editor from the command line such as nano or a graphical interface such as Atom.
 
-You download the latest version of Atom from http://atom.io 
+You download the latest version of Atom from http://atom.io
+
+The Python Library requires the following line in your code:
+
+```python
+from RTk import GPIO
+```
