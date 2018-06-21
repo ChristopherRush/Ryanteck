@@ -94,3 +94,9 @@ To install the RTk.GPIO library you will need to open the command prompt within 
 pip3 install RTk
 ```
 Note: PIP installs with Python on Windows platform
+
+## Python IDE
+
+There are a number of examples that you can use in the Software > examples folder, however if you wish to program your own Python programs then you will need to either use a text editor from the command line such as nano or a graphical interface such as Atom.
+
+You download the latest version of Atom from http://atom.io 
